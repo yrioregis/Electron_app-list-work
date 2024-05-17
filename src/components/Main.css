@@ -1,5 +1,16 @@
+:root {
+    --primary-color: #003F5F;
+    --secondy-color: #0055A3;
+    --terciary-color: #00BCE4;
+    --error-color: #CB4848;
+    --warning-color: #F9821A;
+    --success-color: #0D864C;
+    --gray-color: #F0F0F0;
+}
+
+
 .main {
-    background-color: #F0F0F0;
+    background-color: var(--gray-color);
     padding: 15px 20px;
     margin: 20px auto;
     max-width: 640px;
